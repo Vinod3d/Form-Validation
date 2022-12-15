@@ -39,7 +39,7 @@ body {
   line-height: 1.8;
   color: #222;
   font-weight: 400;
-  background: #282828;
+  background: #b5b0b0;
   padding: 90px 0;
 }
 
@@ -167,6 +167,18 @@ select {
 
 .submit:hover {
   background-color: #cd5300;
+}
+
+.submit-message{
+      text-align: center;
+      flex-direction: column;
+      padding: 20px;
+      width: 50%;
+      margin: 0 auto;
+      background: #b3e7b3;
+      border-radius: 15px;
+      font-size: 20px;
+      color: #e85d5d;
 }
 
 @media screen and (max-width: 992px) {
